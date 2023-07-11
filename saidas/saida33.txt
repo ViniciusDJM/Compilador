@@ -1,0 +1,222 @@
+<4 PRE procedure>
+<4 IDE teste>
+<4 DEL (>
+<4 DEL )>
+<4 DEL {>
+<4 DEL }>
+<6 PRE procedure>
+<6 IDE p>
+<6 DEL (>
+<6 PRE int>
+<6 IDE a>
+<6 DEL )>
+<6 DEL {>
+<6 DEL }>
+<8 PRE procedure>
+<8 IDE p>
+<8 DEL (>
+<8 PRE int>
+<8 IDE a>
+<8 DEL [>
+<8 NRO 5>
+<8 DEL ]>
+<8 DEL )>
+<8 DEL {>
+<8 DEL }>
+<10 PRE procedure>
+<10 IDE p>
+<10 DEL (>
+<10 PRE string>
+<10 IDE a>
+<10 DEL ,>
+<10 PRE real>
+<10 IDE b>
+<10 DEL )>
+<10 DEL {>
+<10 DEL }>
+<12 PRE procedure>
+<12 IDE p>
+<12 DEL (>
+<12 PRE string>
+<12 IDE nome>
+<12 DEL [>
+<12 NRO 10>
+<12 DEL ]>
+<12 DEL ,>
+<12 PRE real>
+<12 IDE b>
+<12 DEL )>
+<12 DEL {>
+<12 DEL }>
+<14 PRE procedure>
+<14 IDE p>
+<14 DEL (>
+<14 PRE real>
+<14 IDE a>
+<14 DEL ,>
+<14 PRE int>
+<14 IDE b>
+<14 DEL )>
+<14 DEL {>
+<14 DEL }>
+<16 PRE procedure>
+<16 IDE teste>
+<16 DEL (>
+<16 DEL )>
+<16 DEL {>
+<16 DEL }>
+<18 PRE procedure>
+<18 IDE testes>
+<18 DEL (>
+<18 DEL )>
+<18 DEL {>
+<18 DEL }>
+<20 PRE procedure>
+<20 IDE p>
+<20 DEL (>
+<20 PRE int>
+<20 IDE x>
+<20 DEL ,>
+<20 PRE real>
+<20 IDE y>
+<20 DEL )>
+<20 DEL {>
+<20 DEL }>
+<22 PRE function>
+<22 PRE int>
+<22 IDE f>
+<22 DEL (>
+<22 DEL )>
+<22 DEL {>
+<22 PRE return>
+<22 NRO 1>
+<22 DEL ;>
+<22 DEL }>
+<24 PRE function>
+<24 PRE real>
+<24 IDE f>
+<24 DEL (>
+<24 DEL )>
+<24 DEL {>
+<24 PRE return>
+<24 NRO 1>
+<24 DEL .>
+<24 NRO 1>
+<24 DEL ;>
+<24 DEL }>
+<26 PRE function>
+<26 PRE boolean>
+<26 IDE f>
+<26 DEL (>
+<26 PRE real>
+<26 IDE a>
+<26 DEL )>
+<26 DEL {>
+<26 PRE return>
+<26 PRE false>
+<26 DEL ;>
+<26 DEL }>
+<28 PRE function>
+<28 PRE int>
+<28 IDE f>
+<28 DEL (>
+<28 PRE real>
+<28 IDE a>
+<28 DEL )>
+<28 DEL {>
+<28 PRE return>
+<28 NRO 1>
+<28 DEL ;>
+<28 DEL }>
+<30 PRE function>
+<30 PRE string>
+<30 IDE f>
+<30 DEL (>
+<30 PRE string>
+<30 IDE a>
+<30 DEL )>
+<30 DEL {>
+<30 PRE return>
+<30 CAD "">
+<30 DEL ;>
+<30 DEL }>
+<32 PRE function>
+<32 PRE string>
+<32 IDE f>
+<32 DEL (>
+<32 PRE string>
+<32 IDE a>
+<32 DEL [>
+<32 NRO 10>
+<32 DEL ]>
+<32 DEL )>
+<32 DEL {>
+<32 PRE return>
+<32 CAD "hello world">
+<32 DEL ;>
+<32 DEL }>
+<34 PRE function>
+<34 PRE real>
+<34 IDE f>
+<34 DEL (>
+<34 DEL )>
+<34 DEL {>
+<34 PRE return>
+<34 NRO 1>
+<34 DEL .>
+<34 NRO 2>
+<34 DEL ;>
+<34 DEL }>
+<36 PRE function>
+<36 PRE string>
+<36 IDE f>
+<36 DEL (>
+<36 PRE real>
+<36 IDE a>
+<36 DEL )>
+<36 DEL {>
+<36 PRE return>
+<36 CAD "test">
+<36 DEL ;>
+<36 DEL }>
+<38 PRE procedure>
+<38 PRE start>
+<38 DEL (>
+<38 DEL )>
+<38 DEL {>
+<38 DEL }>
+<40 PRE procedure>
+<40 PRE start>
+<40 DEL (>
+<40 DEL )>
+<40 DEL {>
+<40 DEL }>
+Erros sintáticos : 
+------------------------------------------------------------------------ 
+Esperava encontrar int,real,string,boolean na linha 8
+Esperava encontrar int,real,string,boolean na linha 12
+Esperava encontrar { na linha 22
+Esperava encontrar { na linha 24
+Esperava encontrar uma } depois na linha 24
+Esperava encontrar { na linha 26
+Esperava encontrar { na linha 28
+Esperava encontrar { na linha 30
+Esperava encontrar um identificador,numero,cadeia de caracteres,true,false,global., local. ou - como valor dentro de uma expressão na linha 30
+Esperava encontrar int,real,string,boolean na linha 32
+Esperava encontrar um identificador,numero,cadeia de caracteres,true,false,global., local. ou - como valor dentro de uma expressão na linha 32
+Esperava encontrar { na linha 34
+Esperava encontrar uma } depois na linha 34
+Esperava encontrar { na linha 36
+Esperava encontrar um identificador,numero,cadeia de caracteres,true,false,global., local. ou - como valor dentro de uma expressão na linha 36
+Erros semânticos: 
+------------------------------------------------------------------------ 
+Já existe procedure com esse nome, erro encontrado na linha:8
+Já existe procedure com esse nome, erro encontrado na linha:10
+Já existe procedure com esse nome, erro encontrado na linha:12
+Já existe procedure com esse nome, erro encontrado na linha:14
+Já existe procedure com esse nome, erro encontrado na linha:16
+Já existe procedure com esse nome, erro encontrado na linha:20
+Erro semântico: não é permitido ter uma função com o mesmo nome e parâetros de uma outra função que já existe erro encontrado em:24
+Erro semântico: este valor não corresponde ao tipo de dado, na linha:26
+Não retorna o tipo de dado definido pela função: f, erro encontrado em:26
+Erro semântico: não é permitido ter uma função com o mesmo nome e parâetros de uma outra função que já existe erro encontrado em:34

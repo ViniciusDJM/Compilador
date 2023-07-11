@@ -1,0 +1,117 @@
+<4 PRE var>
+<4 DEL {>
+<5 PRE int>
+<5 IDE a>
+<5 DEL ;>
+<7 IDE a>
+<7 REL =>
+<7 NRO 1>
+<7 DEL ;>
+<8 IDE conta>
+<8 REL =>
+<8 NRO 2050>
+<8 DEL ;>
+<9 IDE c>
+<9 REL =>
+<9 CAD "hello world">
+<9 DEL ;>
+<10 IDE idade>
+<10 REL =>
+<10 NRO 20>
+<10 DEL ;>
+<11 DEL }>
+<13 PRE function>
+<13 PRE int>
+<13 IDE f>
+<13 DEL (>
+<13 PRE int>
+<13 IDE a>
+<13 DEL )>
+<13 DEL {>
+<14 PRE var>
+<14 DEL {>
+<15 IDE a>
+<15 REL =>
+<15 NRO 10>
+<15 DEL ;>
+<16 IDE b>
+<16 REL =>
+<16 NRO 20>
+<16 DEL ;>
+<18 PRE real>
+<18 IDE c>
+<18 DEL ;>
+<19 DEL }>
+<21 IDE c>
+<21 REL =>
+<21 NRO 3>
+<21 DEL .>
+<21 NRO 14>
+<21 DEL ;>
+<22 IDE d>
+<22 REL =>
+<22 CAD "test">
+<22 DEL ;>
+<25 PRE return>
+<25 IDE a>
+<25 DEL ;>
+<26 DEL }>
+<28 PRE procedure>
+<28 PRE start>
+<28 DEL (>
+<28 DEL )>
+<28 DEL {>
+<29 PRE var>
+<29 DEL {>
+<30 PRE boolean>
+<30 IDE a>
+<30 DEL ,>
+<30 IDE c>
+<30 DEL ;>
+<32 IDE a>
+<32 REL =>
+<32 PRE true>
+<32 DEL ;>
+<33 IDE idade_atual>
+<33 REL =>
+<33 PRE false>
+<33 DEL ;>
+<34 IDE c>
+<34 REL =>
+<34 PRE true>
+<34 DEL ;>
+<35 DEL }>
+<37 IDE f>
+<37 DEL (>
+<37 NRO 10>
+<37 DEL )>
+<37 DEL ;>
+<38 IDE func>
+<38 DEL (>
+<38 DEL )>
+<38 DEL ;>
+<39 IDE func_2>
+<39 DEL (>
+<39 NRO 7>
+<39 DEL )>
+<39 DEL ;>
+<40 DEL }>
+Erros sintáticos : 
+------------------------------------------------------------------------ 
+Esperava encontrar um identificador no processo de atribuição, na linha 7
+Esperava encontrar um identificador no processo de atribuição, na linha 8
+Esperava encontrar um identificador no processo de atribuição, na linha 9
+Esperava encontrar um identificador no processo de atribuição, na linha 10
+Esperava encontrar { na linha 13
+Esperava encontrar um identificador no processo de atribuição, na linha 15
+Esperava encontrar um identificador no processo de atribuição, na linha 16
+Esperava encontrar um ; na linha 21
+Esperava encontrar um identificador no processo de atribuição, na linha 32
+Esperava encontrar um identificador no processo de atribuição, na linha 33
+Esperava encontrar um identificador no processo de atribuição, na linha 34
+Esperava encontrar um ; na linha 37
+Erros semânticos: 
+------------------------------------------------------------------------ 
+Erro semântico: foi usado variaveis que não foram inicializadas, na linha:25
+Não retorna o tipo de dado definido pela função: f, erro encontrado em:25
+Erro semântico: essa variavel não existe, erro encontrado na linha:37

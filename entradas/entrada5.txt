@@ -1,0 +1,42 @@
+/*
+ * Atribuição à constantes
+ */
+
+const {
+	int c, d;
+
+	c = 3;
+	d = 2;
+	e = 1; // erro no e
+}
+
+var {
+	int a, b;
+	real g, m;
+}
+
+function int f() {
+	var {
+		real c, d, e, f;
+	}
+
+	c = 3.14;
+	local.d = 2.17;
+
+	global.e = 2.718; //erro
+	//f = 0.14
+
+	return 0;
+}
+
+procedure start() {
+	a = 1;
+	b = 2;
+	
+	global.c = 3.14; //erro
+	global.d = 2.17; //erro
+
+	g = c + d;
+	m = c + d + e; //erro em e
+
+}

@@ -1,0 +1,136 @@
+<4 PRE const>
+<4 DEL {>
+<5 PRE int>
+<5 IDE c>
+<5 DEL ,>
+<5 IDE d>
+<5 DEL ;>
+<7 IDE c>
+<7 REL =>
+<7 NRO 3>
+<7 DEL ;>
+<8 IDE d>
+<8 REL =>
+<8 NRO 2>
+<8 DEL ;>
+<9 IDE e>
+<9 REL =>
+<9 NRO 1>
+<9 DEL ;>
+<10 DEL }>
+<12 PRE var>
+<12 DEL {>
+<13 PRE int>
+<13 IDE a>
+<13 DEL ,>
+<13 IDE b>
+<13 DEL ;>
+<14 PRE real>
+<14 IDE g>
+<14 DEL ,>
+<14 IDE m>
+<14 DEL ;>
+<15 DEL }>
+<17 PRE function>
+<17 PRE int>
+<17 IDE f>
+<17 DEL (>
+<17 DEL )>
+<17 DEL {>
+<18 PRE var>
+<18 DEL {>
+<19 PRE real>
+<19 IDE c>
+<19 DEL ,>
+<19 IDE d>
+<19 DEL ,>
+<19 IDE e>
+<19 DEL ,>
+<19 IDE f>
+<19 DEL ;>
+<20 DEL }>
+<22 IDE c>
+<22 REL =>
+<22 NRO 3>
+<22 DEL .>
+<22 NRO 14>
+<22 DEL ;>
+<23 PRE local>
+<23 DEL .>
+<23 IDE d>
+<23 REL =>
+<23 NRO 2>
+<23 DEL .>
+<23 NRO 17>
+<23 DEL ;>
+<25 PRE global>
+<25 DEL .>
+<25 IDE e>
+<25 REL =>
+<25 NRO 2>
+<25 DEL .>
+<25 NRO 718>
+<25 DEL ;>
+<28 PRE return>
+<28 NRO 0>
+<28 DEL ;>
+<29 DEL }>
+<31 PRE procedure>
+<31 PRE start>
+<31 DEL (>
+<31 DEL )>
+<31 DEL {>
+<32 IDE a>
+<32 REL =>
+<32 NRO 1>
+<32 DEL ;>
+<33 IDE b>
+<33 REL =>
+<33 NRO 2>
+<33 DEL ;>
+<35 PRE global>
+<35 DEL .>
+<35 IDE c>
+<35 REL =>
+<35 NRO 3>
+<35 DEL .>
+<35 NRO 14>
+<35 DEL ;>
+<36 PRE global>
+<36 DEL .>
+<36 IDE d>
+<36 REL =>
+<36 NRO 2>
+<36 DEL .>
+<36 NRO 17>
+<36 DEL ;>
+<38 IDE g>
+<38 REL =>
+<38 IDE c>
+<38 ART +>
+<38 IDE d>
+<38 DEL ;>
+<39 IDE m>
+<39 REL =>
+<39 IDE c>
+<39 ART +>
+<39 IDE d>
+<39 ART +>
+<39 IDE e>
+<39 DEL ;>
+<41 DEL }>
+Erros sintáticos : 
+------------------------------------------------------------------------ 
+Esperava encontrar o simbolo de = no processo de atribuiação, na linha 5
+Esperava encontrar um identificador no processo de atribuição, na linha 8
+Esperava encontrar um identificador no processo de atribuição, na linha 9
+Esperava encontrar { na linha 17
+Esperava encontrar um ; na linha 22
+Esperava encontrar um ; na linha 23
+Esperava encontrar um ; na linha 25
+Esperava encontrar um ; na linha 35
+Esperava encontrar um ; na linha 36
+Erros semânticos: 
+------------------------------------------------------------------------ 
+Não existe essa variavel: e, erro encontrado na linha: 25
+Não existe essa variavel: d, erro encontrado na linha: 36

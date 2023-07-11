@@ -1,0 +1,265 @@
+<4 PRE var>
+<4 DEL {>
+<5 PRE boolean>
+<5 IDE b>
+<5 DEL ;>
+<6 PRE int>
+<6 IDE i>
+<6 DEL ;>
+<7 PRE real>
+<7 IDE r>
+<7 DEL ;>
+<8 PRE string>
+<8 IDE s>
+<8 DEL ;>
+<9 DEL }>
+<11 PRE procedure>
+<11 IDE p>
+<11 DEL (>
+<11 DEL )>
+<11 DEL {>
+<11 PRE return>
+<11 NRO 0>
+<11 DEL ;>
+<11 DEL }>
+<13 PRE procedure>
+<13 IDE proc2>
+<13 DEL (>
+<13 DEL )>
+<13 DEL {>
+<13 PRE return>
+<13 PRE true>
+<13 DEL ;>
+<13 DEL }>
+<15 PRE function>
+<15 PRE int>
+<15 IDE fi>
+<15 DEL (>
+<15 DEL )>
+<15 DEL {>
+<15 PRE return>
+<15 NRO 2>
+<15 DEL .>
+<15 NRO 0>
+<15 DEL ;>
+<15 DEL }>
+<17 PRE function>
+<17 PRE int>
+<17 IDE calcula_idade>
+<17 DEL (>
+<17 DEL )>
+<17 DEL {>
+<17 DEL }>
+<19 PRE function>
+<19 PRE boolean>
+<19 IDE fs>
+<19 DEL (>
+<19 DEL )>
+<19 DEL {>
+<19 PRE return>
+<19 CAD "hello world">
+<19 DEL ;>
+<19 DEL }>
+<21 PRE procedure>
+<21 PRE start>
+<21 DEL (>
+<21 DEL )>
+<21 DEL {>
+<22 IDE b>
+<22 REL =>
+<22 IDE proc2>
+<22 DEL (>
+<22 DEL )>
+<22 DEL ;>
+<23 IDE i>
+<23 REL =>
+<23 IDE fi>
+<23 DEL (>
+<23 DEL )>
+<23 DEL ;>
+<24 IDE r>
+<24 REL =>
+<24 IDE fr>
+<24 DEL (>
+<24 DEL )>
+<24 DEL ;>
+<25 IDE s>
+<25 REL =>
+<25 IDE fs>
+<25 DEL (>
+<25 DEL )>
+<25 DEL ;>
+<27 IDE b>
+<27 REL =>
+<27 IDE b>
+<27 DEL ;>
+<28 IDE i>
+<28 REL =>
+<28 IDE b>
+<28 DEL ;>
+<29 IDE r>
+<29 REL =>
+<29 IDE i>
+<29 DEL ;>
+<31 IDE b>
+<31 REL =>
+<31 LOG !>
+<31 IDE b>
+<31 LOG ||>
+<31 DEL (>
+<31 IDE i>
+<31 REL >>
+<31 NRO 1>
+<31 DEL )>
+<31 LOG &&>
+<31 DEL (>
+<31 IDE r>
+<31 REL >>
+<31 NRO 1>
+<31 DEL .>
+<31 NRO 3>
+<31 DEL )>
+<31 LOG ||>
+<31 IDE i>
+<31 REL ==>
+<31 CAD "test">
+<31 DEL ;>
+<33 IDE s>
+<33 REL =>
+<33 LOG !>
+<33 IDE b>
+<33 LOG ||>
+<33 DEL (>
+<33 IDE i>
+<33 REL >>
+<33 NRO 1>
+<33 DEL )>
+<33 LOG &&>
+<33 DEL (>
+<33 IDE r>
+<33 REL >>
+<33 NRO 1>
+<33 DEL .>
+<33 NRO 3>
+<33 DEL )>
+<33 LOG ||>
+<33 IDE s>
+<33 REL ==>
+<33 CAD "test">
+<33 DEL ;>
+<35 IDE b>
+<35 REL =>
+<35 LOG !>
+<35 IDE b>
+<35 LOG ||>
+<35 DEL (>
+<35 IDE i>
+<35 REL >>
+<35 NRO 1>
+<35 DEL .>
+<35 NRO 3>
+<35 DEL )>
+<35 LOG &&>
+<35 DEL (>
+<35 IDE r>
+<35 REL >>
+<35 NRO 1>
+<35 DEL )>
+<35 LOG ||>
+<35 IDE s>
+<35 REL ==>
+<35 CAD "false">
+<35 DEL ;>
+<37 PRE if>
+<37 DEL (>
+<37 IDE b>
+<37 DEL )>
+<37 PRE then>
+<37 DEL {>
+<38 PRE read>
+<38 DEL (>
+<38 IDE i>
+<38 DEL )>
+<38 DEL ;>
+<39 PRE print>
+<39 DEL (>
+<39 IDE b>
+<39 DEL )>
+<39 DEL ;>
+<40 DEL }>
+<42 PRE if>
+<42 DEL (>
+<42 IDE i>
+<42 REL ==>
+<42 NRO 0>
+<42 DEL )>
+<42 PRE then>
+<43 PRE print>
+<43 DEL (>
+<43 IDE i>
+<43 DEL )>
+<43 DEL ;>
+<45 PRE if>
+<45 DEL (>
+<45 IDE r>
+<45 LOG !>
+<45 REL =>
+<45 NRO 1>
+<45 DEL .>
+<45 NRO 3>
+<45 DEL )>
+<45 PRE then>
+<46 PRE print>
+<46 DEL (>
+<46 IDE r>
+<46 DEL )>
+<46 DEL ;>
+<48 PRE if>
+<48 DEL (>
+<48 IDE b>
+<48 REL >>
+<48 CAD "true">
+<48 DEL )>
+<48 PRE then>
+<49 PRE print>
+<49 DEL (>
+<49 IDE s>
+<49 DEL )>
+<49 DEL ;>
+<51 PRE return>
+<51 NRO 42>
+<51 DEL ;>
+<53 DEL }>
+Erros sintáticos : 
+------------------------------------------------------------------------ 
+Procedure não pode ter return ( linha 11 )
+Procedure não pode ter return ( linha 13 )
+Esperava encontrar { na linha 15
+Esperava encontrar uma } depois na linha 15
+Esperava encontrar { na linha 17
+Esperava encontrar um identificador,numero,cadeia de caracteres,true,false,global., local. ou - como valor dentro de uma expressão na linha 19
+Esperava encontrar um identificador,numero,cadeia de caracteres,true,false,global., local. ou - como valor dentro de uma expressão na linha 31
+Esperava encontrar um ; na linha 31
+Esperava encontrar um { na linha 43
+Esperava encontrar um identificador,numero,cadeia de caracteres,true,false,global., local. ou - como valor dentro de uma expressão na linha 45
+Esperava encontrar um { na linha 46
+Esperava encontrar um identificador,numero,cadeia de caracteres,true,false,global., local. ou - como valor dentro de uma expressão na linha 48
+Esperava encontrar um { na linha 49
+Procedure não pode ter return ( linha 51 )
+Esperava encontrar uma } para finalizar o start
+Esperava encontrar um } na linha -1
+Esperava encontrar uma } para finalizar o start
+Esperava encontrar um } na linha -1
+Esperava encontrar uma } para finalizar o start
+Erros semânticos: 
+------------------------------------------------------------------------ 
+Não existe essa função func_proc2Erro encontrado na linha:22
+Não existe essa função func_frErro encontrado na linha:24
+Não existe essa função func_fsErro encontrado na linha:25
+Erro semântico: foi usado variaveis que não foram inicializadas, na linha:27
+Erro semântico: expressão de atribuição de maneira errada(variavel não inicializada ou tipo de dado errado) erro encontrado em:27
+Erro semântico: foi usado variaveis que não foram inicializadas, na linha:28
+Erro semântico: foi usado variaveis com o tipo de dado errado, na linha:28
+Erro semântico: expressão de atribuição de maneira errada(variavel não inicializada ou tipo de dado errado) erro encontrado em:28
+Erro semântico: foi usado variaveis que não foram inicializadas, na linha:29
+Erro semântico: expressão de atribuição de maneira errada(variavel não inicializada ou tipo de dado errado) erro encontrado em:29
